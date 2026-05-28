@@ -25,8 +25,10 @@ update:
 
   source = Path(r"C:\Users\adeom\My Drive\Obsidian\Death is Optional")
   wtree = Path(r"{{justfile_directory()}}") / "worktree" / "pages"
-  quartz = wtree / "quartz"
+  quartz = Path(r"{{justfile_directory()}}") / "worktree" / "quartz"
 
+  if quartz.is_dir():
+    rmtree(quartz, onerror=onerror)
   if wtree.is_dir():
     try:
         run(
@@ -38,6 +40,11 @@ update:
         pass
     if wtree.is_dir():
       rmtree(wtree, onerror=onerror)
+    run(
+        "git worktree prune",
+        cwd=Path(r"{{justfile_directory()}}"),
+        input="",
+    )
 
   run(
     "git worktree add --track -B pages worktree/pages origin/pages",
@@ -45,7 +52,7 @@ update:
   )
   run(
     "git clone https://github.com/jackyzha0/quartz.git",
-    cwd=wtree,
+    cwd=quartz.parent,
   )
   run(
     "npm i",

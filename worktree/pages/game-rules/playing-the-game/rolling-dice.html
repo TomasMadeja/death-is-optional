@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Rolling dice</title><meta charset="utf-8"/><link rel="preload" href="../../index-47d9ba67.css" as="style"/><link rel="preload" href="../../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 5"/><meta property="og:title" content="Rolling dice"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Rolling dice"/><meta name="twitter:description" content="Rolling dice Whenever an action asks for a roll, you go through the following steps: Determine the roll difficulty."/><meta property="og:description" content="Rolling dice Whenever an action asks for a roll, you go through the following steps: Determine the roll difficulty."/><meta property="og:image:alt" content="Rolling dice Whenever an action asks for a roll, you go through the following steps: Determine the roll difficulty."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/game-rules/playing-the-game/rolling-dice"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/game-rules/playing-the-game/rolling-dice"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Rolling dice Whenever an action asks for a roll, you go through the following steps: Determine the roll difficulty."/><meta name="generator" content="Quartz"/><link href="../../index-47d9ba67.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/game-rules/playing-the-game/rolling-dice-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/game-rules/playing-the-game/rolling-dice-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/game-rules/playing-the-game/rolling-dice-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="game-rules/playing-the-game/rolling-dice" data-basepath><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Quartz 5</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Reader mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\r\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\r\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\r\n        numeric: true,\r\n        sensitivity: \&quot;base\&quot;\r\n      });\r\n    }\r\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\r\n      return 1;\r\n    }\r\n    return -1;\r\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\r\n    return node;\r\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-5" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-5" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../game-rules/">Game Rules</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../game-rules/playing-the-game/">Playing the Game</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Rolling dice</a></div></nav><h1 class="article-title">Rolling dice</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-18T18:53:06.030Z">May 18, 2026</time><span>11 min read</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h1 id="rolling-dice">Rolling dice<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rolling-dice" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Whenever an action asks for a roll, you go through the following steps:</p>
+<ol>
+<li><strong>Determine the roll difficulty.</strong> This will always be a number between 1 and 12. It’s determined by the GM, or written as part of the ability description. A single roll can have <a href="#multiple-difficulties" class="internal internal-link alias">multiple difficulties</a>.</li>
+</ol>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You are rolling Diff 3 (Body) to climb up a tree. The difficulty of the roll is 3.</em></p>
+</div>
+</blockquote>
+<ol start="2">
+<li><strong>Determine if you are skilled in the action.</strong> If an action benefits from your skill, you add your Skill die to the roll.</li>
+</ol>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>Your character is skilled at climbing, you get to add your a d6 (your Skill die) to your roll.</em></p>
+</div>
+</blockquote>
+<ol start="3">
+<li><strong>Assemble the dice you will roll.</strong> Expend dice from your Might, Body, Soul, and Drive die pools, and add them to this roll. You can expend at most 15 dice. A single roll can use at most 16 dice; 15 from the pool and 1 Skill Die.</li>
+</ol>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You expend 2d6 from your Might pool and 1d6 from your Body pool. Your entire roll will therefore be 4d6, including the Skill die.</em></p>
+</div>
+</blockquote>
+<ol start="4">
+<li><strong>Roll the dice.</strong> Roll all the dice, and apply any <a href="#roll-modifiers" class="internal internal-link alias">roll modifiers</a>. Even if the role has <a href="#multiple-difficulties" class="internal internal-link alias">multiple difficulties</a> or <a href="#multiple-targets" class="internal internal-link alias">multiple targets</a>, you only make one roll. <em>You roll 4d6, and get: 2, 3, 1, 6.</em></li>
+<li><strong>Determine if roll succeeded.</strong> When any of the dice rolls on a number equal to or above the difficulty, it counts as a success. If you have at least one successful roll, the entire roll is success. In rolls with <a href="#multiple-difficulties" class="internal internal-link alias">multiple difficulties</a>, you have do this for every difficulty.</li>
+</ol>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>The difficulty of the roll was 3, therefore you have 2 successes (rolls 3 and 6). Since you have at least 1 success, the entire roll is successful.</em></p>
+</div>
+</blockquote>
+<ol start="6">
+<li><strong>Determine the <a href="../../game-rules/playing-the-game/amp" class="internal internal-link" data-slug="game-rules/playing-the-game/amp">Amp</a>.</strong> Every success die above the first is considered an <a href="../../game-rules/playing-the-game/amp" class="internal internal-link alias" data-slug="game-rules/playing-the-game/amp">amp(lification) die</a>, improving your outcome. Count all of the extra success you have, and check the description of your Action and Abilities you used to see if any of them have an <a href="../../game-rules/playing-the-game/amp" class="internal internal-link" data-slug="game-rules/playing-the-game/amp">Amp</a> option.</li>
+</ol>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>Your roll had 2 successes (rolls 3 and 6). That means you had 1 extra success above what you needed. This means you have 1 <a href="../../game-rules/playing-the-game/amp" class="internal internal-link" data-slug="game-rules/playing-the-game/amp">Amp</a>.
+You check your abilities, and find out you have an ability, that allows you to become familiar with anything you climb enough to automatically take someone up with you. The ability allows you to do guide number of people equal to your <a href="../../game-rules/playing-the-game/amp" class="internal internal-link" data-slug="game-rules/playing-the-game/amp">Amp</a>.</em></p>
+</div>
+</blockquote>
+<ol start="7">
+<li><strong>Resolve the consequences.</strong> Tell the results of your roll, the <a href="../../game-rules/playing-the-game/amp" class="internal internal-link" data-slug="game-rules/playing-the-game/amp">Amp</a> and its effects, to your GM. Together, you narrate the consequences of the roll.</li>
+</ol>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You manage to climb up the tree with ease. Thanks to your <a href="../../game-rules/playing-the-game/amp" class="internal internal-link" data-slug="game-rules/playing-the-game/amp">Amp</a>, you grab one of your party members to go up with you. You both climb up all the way to the top of the tree, surveying the area.</em></p>
+</div>
+</blockquote>
+<h2 id="determining-difficulty">Determining Difficulty<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#determining-difficulty" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>When choosing how difficult a task can be, you have to take into consideration that not all situations and characters are created equal. When hitting an opponent with an attack, setting a single difficulty for all players is a fairly simple concept. On the other hand, how to set a single difficulty in studying an advanced alchemical tome?</p>
+<p>In other systems, this question might be answered by using single difficulty and roll modifiers. In our case, we differentiate between <strong>objective</strong> and <strong>subjective</strong> difficulty.</p>
+<blockquote class="callout tip" data-callout="tip">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Rough Guidelines </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><strong>Difficulty 5.</strong> This difficulty is used for almost all <a href="../../game-rules/playing-the-game/amp#self-amp" class="internal internal-link alias" data-slug="game-rules/playing-the-game/amp">Self-Amp</a> rolls. It should relate to tasks where a regular person must apply their skills and experience to succeed.
+<strong>Difficulty 6.</strong> This is the highest challenge a regular person might face. Backbreaking physical labor, and taxing mental tasks.
+<strong>Difficulty 8.</strong> This difficulty should be one that requires an extremely talent person to succeed.
+<strong>Difficulty 10.</strong> We are reaching difficulties face by very few people in history.
+<strong>Difficulty 12.</strong> This difficulty would be reaching the limits of what is possible. In epic fantasy, these would be on par with Herculean tasks.</p>
+</div>
+</blockquote>
+<h3 id="objective-difficulty">Objective difficulty<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#objective-difficulty" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>These almost always come into play when it comes to purely mechanical situations: attacks, defense, Self-amp, scene mechanics. These are usually the core mechanics to your play style, where you desire consistency and some degree of fairness.  As vague as this description might be, you will be fine with the following rule of thumb.</p>
+<blockquote class="callout tip" data-callout="tip">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Rule of thumb </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>Everything starts as objective difficulty, and might change into a subjective one after conversation between Player and the GM.</p>
+</div>
+</blockquote>
+<h3 id="subjective-difficulty">Subjective difficulty<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#subjective-difficulty" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Subjective difficulty is best defined by an example. The player sees group of villagers trying to lift up a stuck wagon. They decide they want to go over, and lift it up, and push it away. The first decision of the GM is to declare it a Diff 6 roll. The player then brings up an ability of theirs. It makes them far stronger then a regular person, allowing them to casually lift 1 ton, and to lift up to 2 tons. Taking this into account, the GM changes it to Diff 2, only to give some small chance to struggle.</p>
+<p>Due to this improvised nature, there are no clear rules as to how to decide on a subjective ruling. Instead, best we can do is few guidelines:</p>
+<ul>
+<li>If the characters natural predisposition should make a task easier, lower the difficulty.</li>
+<li>If it makes the task trivial, make it automatic success or Diff 2. The Diff 2 gives a small chance of failure, that allows for a bit of variability.</li>
+<li>When a character lacks predisposition to do something, consider making it an automatic failure. Understanding an advanced alchemical manual when a character barely knows what alchemy is impossible. Even a Diff 12 roll doesn’t change that.</li>
+<li>When a character is bad at something as character feature, increase the difficulty. Some examples are physically weak, finds books boring, can’t see well.</li>
+<li>When a character is temporarily held back or at an advantage, consider making the roll look at <a href="#using-hindered--eased" class="internal internal-link alias">Using Hindered &amp; Eased</a>.</li>
+</ul>
+<h3 id="using-hindered--eased">Using Hindered &amp; Eased<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#using-hindered--eased" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>While difficulty is about figuring out how hard it is to achieve the task on its own, the <a href="#hindered" class="internal internal-link alias">Hindered</a> and <a href="#eased" class="internal internal-link alias">Eased</a> mechanics are about allowing temporary advantages to affect the roll. If a character is trying to catch up to someone by sprinting in the mud, their roll with be <a href="#hindered" class="internal internal-link alias">Hindered</a>. Similarly, trying to outrun someone after leading them into a mud pit will make it <a href="#eased" class="internal internal-link alias">Eased</a>.</p>
+<blockquote class="callout tip" data-callout="tip">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Rule of Thumb </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>A single thing that helps or hold back should <a href="#eased" class="internal internal-link alias">Ease</a> or <a href="#hindered" class="internal internal-link alias">Hinder</a> by 1. More severe one by 2. Extreme effect is 3.
+You should avoid using larger numbers. These should be reserved for extreme, once in a game rare circumstances.</p>
+</div>
+</blockquote>
+<blockquote class="callout tip" data-callout="tip">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Stacking Bonuses </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>Make use of stacking multiple bonuses. Each effect might ease or hinder by 1, eventually stacking up to an overall larger bonus. This will happen quite often in the game, due to player abilities.</p>
+<blockquote class="callout example is-collapsible" data-callout="example" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Stacking bonuses in combat </p></div>
+                  <div class="fold-callout-icon callout-fold"></div>
+                </div>
+<p>If a enemy is knocked prone and has sand thrown into their eyes, each of these would ease a player roll by 1, for total eased by 2 roll.</p>
+</blockquote>
+</div>
+</blockquote>
+<h2 id="additional-rules">Additional rules<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#additional-rules" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="one-action-one-roll">One action, one roll<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#one-action-one-roll" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Regardless of the number of targets or multiple difficulties, you only ever perform one roll. As such, an action only ever needs you to find one thing you are skilled at that applies, and to only ever expend dice from your pools once. Ability or a Boon also applies to the entire roll.</p>
+<h3 id="all-dice-can-succeed">All dice can succeed<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#all-dice-can-succeed" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Whenever you make a roll, you may only roll the dice that can succeed. A difficulty 7 roll can only use d8 or larger. You can not include the d6 in the roll.</p>
+<p>This become slightly more complex when it comes to <a href="#multiple-difficulties" class="internal internal-link alias">multiple difficulties</a>. In such cases the dice have to be able to succeed on at least one of the difficulties.</p>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You are rolling with Diff 6 and Diff 7. Your skill die is d6, and all your pools have only d6 dice. You can still continue with the roll, but you can only succeed on the Diff 6. The Diff 7 <a href="#automatic-failure" class="internal internal-link alias">automatically fails</a>.</em></p>
+</div>
+</blockquote>
+<h3 id="automatic-failure">Automatic failure<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#automatic-failure" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>If you do not have any dice that can succeed on the difficulty of the roll, you automatically fail.</p>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You must succeed on a Diff 10 roll, but your skill die is d8, and the largest die in any of your pools is also d8. You are unable to succeed on this roll and automatically fail.</em></p>
+</div>
+</blockquote>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You must succeed on a Diff 8 roll. You are not skilled in this Action, and therefore can not apply your skill die of d8. You expended all your d8 dice from Pools, and are only left with d6. You have no viable dice, and automatically fail on the roll.</em></p>
+</div>
+</blockquote>
+<h3 id="multiple-difficulties">Multiple difficulties<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#multiple-difficulties" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>When a roll comes with multiple difficulties, you determine the success of each separately. You roll the dice once, and then count success for each Difficulty.</p>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You roll 4d6, Diff 6 to avoid being hit, and Diff 3 to be disarmed by the attack. You rolled 1, 4, 5, 5. You fail at the Diff 6, but you succeed on the Diff 3 (with 3 successes: 4, 5, 5).</em></p>
+</div>
+</blockquote>
+<p>In a scenario when your roll is <a href="#roll-modifiers" class="internal internal-link alias">Eased or Hindered</a> it is important to consider the context of the roll. The roll modifiers should apply to only the dice that can succeed on the roll.</p>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Eased roll with multiple difficulties </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You perform an action to cleave 2 enemies with your Axe. Only one of them is heavily armored and trained. Your friend decides to help you out with the stronger one, and uses an ability that Eases attacking them by 1.</em>
+<em>Hitting the first one is Diff 5, while hitting the other is Diff 7 Eased by 1. You dice to go all in, and rolling 3d6+4d8. You roll (2, 3, 2) on the d6, and (5, 6, 2, 4) on the d8.</em>
+<em>You can re-roll one failed die because the attack is eased. Since it was the Diff 7 attack that was Eased, you can only choose one of the d8 dice to re-roll.</em></p>
+</div>
+</blockquote>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Eased roll with multiple difficulties, cont. </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>Lets change the previous example. This time, The Diff 5 roll is Eased by 1. Since all of the dice you used can succeed on the Diff 5, you can re-roll any d6 or d8 dice. You choose d8 and roll 7, succeeding on both attacks.</em></p>
+</div>
+</blockquote>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Hindered roll with multiple difficulties </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>This time, your attack against armored enemy is hindered, and you manage to roll (2, 3, 2) on d6, and (8, 6, 2, 4) on d8. You must re-roll the one successful die. Since the the Diff 7 is the one Hindered, you must re-roll the only successful d8 roll. You end up rolling 5, and the both attacks fail.</em></p>
+</div>
+</blockquote>
+<h3 id="roll-modifiers">Roll modifiers<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#roll-modifiers" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The game uses two special modifiers: <a href="#eased" class="internal internal-link alias">Eased</a> and <a href="#hindered" class="internal internal-link alias">Hindered</a>. Both of these allow you to re-roll dice during your roll. They share these rules:</p>
+<ul>
+<li>Single die can only be re-rolled once.</li>
+<li>If <a href="#eased" class="internal internal-link alias">Eased</a> or <a href="#hindered" class="internal internal-link alias">Hindered</a>, you must re-roll if possible.</li>
+<li><a href="#eased" class="internal internal-link alias">Eased</a> and <a href="#hindered" class="internal internal-link alias">Hindered</a> cancel each other out. If a roll is <a href="#eased" class="internal internal-link alias">Eased</a> by 2 and <a href="#hindered" class="internal internal-link alias">Hindered</a> by 1, the roll will end up being Eased by 1.</li>
+<li>If your roll is <a href="#eased" class="internal internal-link alias">Eased</a> by number larger then number of dice you rolled, miss out on extra re-roll. You can not re-roll same die twice.</li>
+<li>If your roll is <a href="#hindered" class="internal internal-link alias">Hindered</a> by number greater then number of dice you rolled, you avoid the extra re-rolls. You can not re-roll the same die twice.</li>
+<li>You choose which of the dice gets re-rolled, as long as <a href="#all-dice-can-succeed" class="internal internal-link alias">it is a die that can succeed on that difficulty</a>.</li>
+</ul>
+<h4 id="eased">Eased<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#eased" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Re-roll one of the failed dice in your roll.</p>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You are rolling Diff 6 Eased by 1. You rolled 3d6 for result of (2, 5, 3). You choose to re-roll the first die, rolling 6 and succeeding on the roll.</em></p>
+</div>
+</blockquote>
+<h4 id="hindered">Hindered<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#hindered" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Re-roll one of the success dice in your roll.</p>
+<blockquote class="callout example" data-callout="example">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>Example</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p><em>You are rolling Diff 6 Hindered by 1. You rolled 3d8 for result of (2, 6, 7). You choose the second die, rolling 8 and succeeding on the roll with Amp 1s.</em></p>
+</div>
+</blockquote>
+<h3 id="multiple-targets">Multiple targets<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#multiple-targets" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>If an action has more then one target, your roll will have a difficulty for each of the targets. The success will be resolved as a regular <a href="#multiple-difficulties" class="internal internal-link alias">roll with multiple difficulties</a>.</p></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-3" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#rolling-dice" data-for="rolling-dice">Rolling dice</a></li><li class="depth-1"><a href="#determining-difficulty" data-for="determining-difficulty">Determining Difficulty</a></li><li class="depth-2"><a href="#objective-difficulty" data-for="objective-difficulty">Objective difficulty</a></li><li class="depth-2"><a href="#subjective-difficulty" data-for="subjective-difficulty">Subjective difficulty</a></li><li class="depth-2"><a href="#using-hindered--eased" data-for="using-hindered--eased">Using Hindered &amp; Eased</a></li><li class="depth-1"><a href="#additional-rules" data-for="additional-rules">Additional rules</a></li><li class="depth-2"><a href="#one-action-one-roll" data-for="one-action-one-roll">One action, one roll</a></li><li class="depth-2"><a href="#all-dice-can-succeed" data-for="all-dice-can-succeed">All dice can succeed</a></li><li class="depth-2"><a href="#automatic-failure" data-for="automatic-failure">Automatic failure</a></li><li class="depth-2"><a href="#multiple-difficulties" data-for="multiple-difficulties">Multiple difficulties</a></li><li class="depth-2"><a href="#roll-modifiers" data-for="roll-modifiers">Roll modifiers</a></li><li class="depth-2"><a href="#multiple-targets" data-for="multiple-targets">Multiple targets</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript-e6daf1aa.js" type="module" data-persist="true"></script></html>
