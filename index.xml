@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Quartz 4</title>
-      <link>https://adeom.codeberg.page/death-is-optional/</link>
-      <description>Last 10 notes on Quartz 4</description>
+      <title>Quartz 5</title>
+      <link>https://adeom.codeberg.page/death-is-optional</link>
+      <description>Last 10 notes on Quartz 5</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Paths</title>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/paths/</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/paths/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 28 May 2026 21:59:37 GMT</pubDate>
+  </item><item>
+    <title>Game Rules</title>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 28 May 2026 21:59:37 GMT</pubDate>
+  </item><item>
+    <title>Playing the Game</title>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 28 May 2026 21:59:37 GMT</pubDate>
+  </item><item>
+    <title>Tag Index</title>
+    <link>https://adeom.codeberg.page/death-is-optional/tags/</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/tags/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 28 May 2026 21:59:37 GMT</pubDate>
+  </item><item>
     <title>Tugging at Heartstrings</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Paths/Tugging-at-Heartstrings</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Paths/Tugging-at-Heartstrings</guid>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/paths/tugging-at-heartstrings</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/paths/tugging-at-heartstrings</guid>
     <description><![CDATA[ Tugging at Heartstrings flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Heartstring clock. ]]></description>
     <pubDate>Thu, 28 May 2026 14:17:12 GMT</pubDate>
   </item><item>
     <title>Amp</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Amp</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Amp</guid>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/amp</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/amp</guid>
     <description><![CDATA[ Amp Some abilities gain stronger effects with more successes on a roll. This mechanic is call Amp(lificatio). ]]></description>
     <pubDate>Tue, 26 May 2026 18:50:29 GMT</pubDate>
   </item><item>
     <title>Healing the Body</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Paths/Healing-the-Body</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Paths/Healing-the-Body</guid>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/paths/healing-the-body</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/paths/healing-the-body</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Mon, 25 May 2026 19:08:56 GMT</pubDate>
   </item><item>
     <title>Rolling dice</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Rolling-dice</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Rolling-dice</guid>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/rolling-dice</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/rolling-dice</guid>
     <description><![CDATA[ Rolling dice Whenever an action asks for a roll, you go through the following steps: Determine the roll difficulty. ]]></description>
     <pubDate>Mon, 18 May 2026 18:53:06 GMT</pubDate>
   </item><item>
     <title>Abilities</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Abilities</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Abilities</guid>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/abilities</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/abilities</guid>
     <description><![CDATA[ Abilities Scene Abilities. ]]></description>
     <pubDate>Sat, 02 May 2026 09:54:21 GMT</pubDate>
   </item><item>
     <title>Stat Pools</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Stat-Pools</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Stat-Pools</guid>
+    <link>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/stat-pools</link>
+    <guid>https://adeom.codeberg.page/death-is-optional/game-rules/playing-the-game/stat-pools</guid>
     <description><![CDATA[ Stat pools Your pools are the measure of how much can your character push themselves to achieve something. ]]></description>
     <pubDate>Mon, 27 Apr 2026 20:51:34 GMT</pubDate>
-  </item><item>
-    <title>Paths</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Paths</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Paths</guid>
-    <description><![CDATA[ Paths. ]]></description>
-    <pubDate>Mon, 27 Apr 2026 19:21:13 GMT</pubDate>
-  </item><item>
-    <title>Scenes</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Scenes</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Scenes</guid>
-    <description><![CDATA[ Scenes Action Scenes Social Scenes Puzzle Scenes. ]]></description>
-    <pubDate>Sun, 26 Apr 2026 09:03:31 GMT</pubDate>
-  </item><item>
-    <title>Skills</title>
-    <link>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Skills</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/Game-Rules/Playing-the-Game/Skills</guid>
-    <description><![CDATA[ Skills Any time your character is supposed to be exceptionally good at something, they gain a skill in this thing. ]]></description>
-    <pubDate>Sun, 19 Apr 2026 15:07:05 GMT</pubDate>
-  </item><item>
-    <title>Welcome to Death is Optional</title>
-    <link>https://adeom.codeberg.page/death-is-optional/</link>
-    <guid>https://adeom.codeberg.page/death-is-optional/</guid>
-    <description><![CDATA[ This is root of the Death is Optional ttrpg project. Website build using Obsidian and Quartz. ]]></description>
-    <pubDate>Wed, 23 Aug 2023 19:09:04 GMT</pubDate>
   </item>
     </channel>
   </rss>
