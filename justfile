@@ -25,7 +25,7 @@ update:
 
   source = Path(r"C:\Users\adeom\My Drive\Obsidian\Death is Optional")
   wtree = Path(r"{{justfile_directory()}}") / "worktree" / "pages"
-  quartz = wtree / "quartz"
+  quartz = Path(r"{{justfile_directory()}}") / "worktree" / "quartz"
 
   if wtree.is_dir():
     try:
@@ -38,20 +38,36 @@ update:
         pass
     if wtree.is_dir():
       rmtree(wtree, onerror=onerror)
+  if quartz.is_dir():
+    rmtree(quartz, onerror=onerror)
+  run(
+      "git worktree prune",
+      cwd=Path(r"{{justfile_directory()}}"),
+      input="",
+  )
+
 
   run(
-    "git worktree add --track -B pages worktree/pages origin/pages",
+    "git worktree add worktree/pages pages",
+    cwd=Path(r"{{justfile_directory()}}"),
+  )
+  (wtree / "README.md").unlink(missing_ok=True)
+  (wtree / "LICENSE").unlink(missing_ok=True)
+  (wtree / "justfile").unlink(missing_ok=True)
+  run(
+    "git worktree list",
     cwd=Path(r"{{justfile_directory()}}"),
   )
   run(
     "git clone https://github.com/jackyzha0/quartz.git",
-    cwd=wtree,
+    cwd=quartz.parent,
   )
   run(
     "npm i",
     cwd=quartz,
     shell=True,
   )
+  
   run(
     'npx quartz create -t obsidian -s copy -b "adeom.codeberg.page/death-is-optional/"',
     input=b"\n",
@@ -65,14 +81,11 @@ update:
     shell=True,
   )
   run(
-    f'npx quartz build --output "{wtree}"',
+    f'npx quartz build',
     cwd=quartz,
     shell=True,
   )
-  rmtree(quartz, onerror=onerror)
-  (wtree / "README.md").unlink(missing_ok=True)
-  (wtree / "LICENSE").unlink(missing_ok=True)
-  (wtree / "justfile").unlink(missing_ok=True)
+  copytree(quartz / "public", wtree, dirs_exist_ok=True)
   run(
     "git add -A",
     cwd=wtree,
