@@ -4,7 +4,7 @@ set script-interpreter := ['uv', 'run', '--script']
 update:
   from subprocess import run as _run
   from pathlib import Path
-  from shutil import rmtree, copytree
+  from shutil import rmtree, copytree, copyfile
 
   def onerror(func, path, exc_info):
       import stat
@@ -23,7 +23,7 @@ update:
 
   run = lambda *args, **kwargs: _run(*args, check=True, **kwargs)
 
-  source = Path(r"C:\Users\adeom\My Drive\Obsidian\Death is Optional")
+  source = Path(r"~\My Drive\Obsidian\Death is Optional").expanduser()
   wtree = Path(r"{{justfile_directory()}}") / "worktree" / "pages"
   quartz = Path(r"{{justfile_directory()}}") / "worktree" / "quartz"
 
@@ -46,14 +46,17 @@ update:
       input="",
   )
 
-
   run(
     "git worktree add worktree/pages pages",
     cwd=Path(r"{{justfile_directory()}}"),
   )
-  (wtree / "README.md").unlink(missing_ok=True)
-  (wtree / "LICENSE").unlink(missing_ok=True)
-  (wtree / "justfile").unlink(missing_ok=True)
+  for child in wtree.iterdir():
+      if child.name.startswith("."):
+         continue
+      if child.is_file():
+         child.unlink()
+      if child.is_dir():
+         rmtree(child, onerror=onerror)
   run(
     "git worktree list",
     cwd=Path(r"{{justfile_directory()}}"),
@@ -69,12 +72,13 @@ update:
   )
   
   run(
-    'npx quartz create -t obsidian -s copy -b "adeom.codeberg.page/death-is-optional/"',
+    'npx quartz create --template obsidian --strategy new --baseUrl "adeom.codeberg.page/death-is-optional/"',
     input=b"\n",
     cwd=quartz,
     shell=True,
   )
   copytree(source / "Game Rules", quartz / "content" / "Game Rules")
+  copyfile(source / "index.md", quartz / "content" / "index.md")
   run(
     "npx quartz plugin install --from-config",
     cwd=quartz,
