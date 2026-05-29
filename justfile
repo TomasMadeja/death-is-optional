@@ -90,6 +90,8 @@ update:
     shell=True,
   )
   copytree(quartz / "public", wtree, dirs_exist_ok=True)
+  with open(wtree / "CNAME", "w") as fh:
+    fh.write("dio.adeom.dev\n")
   run(
     "git add -A",
     cwd=wtree,
