@@ -72,7 +72,7 @@ update:
   )
   
   run(
-    'npx quartz create --template obsidian --strategy new --baseUrl "adeom.codeberg.page/death-is-optional/"',
+    'npx quartz create --template obsidian --strategy new --baseUrl "dio.adeom.dev"',
     input=b"\n",
     cwd=quartz,
     shell=True,
