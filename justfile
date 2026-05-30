@@ -71,12 +71,13 @@ update:
     shell=True,
   )
   
-  run(
-    'npx quartz create --template obsidian --strategy new --baseUrl "dio.adeom.dev"',
-    input=b"\n",
-    cwd=quartz,
-    shell=True,
-  )
+  # run(
+  #   'npx quartz create --template obsidian --strategy new --baseUrl "dio.adeom.dev"',
+  #   input=b"\n",
+  #   cwd=quartz,
+  #   shell=True,
+  # )
+  copyfile(Path(r"{{justfile_directory()}}") / "quartz.config.yaml", quartz / "quartz.config.yaml")
   copytree(source / "Game Rules", quartz / "content" / "Game Rules")
   copyfile(source / "index.md", quartz / "content" / "index.md")
   run(
