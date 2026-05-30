@@ -10,31 +10,43 @@
     <link>https://dio.adeom.dev/game-rules/paths/</link>
     <guid>https://dio.adeom.dev/game-rules/paths/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 29 May 2026 19:04:42 GMT</pubDate>
+    <pubDate>Sat, 30 May 2026 15:29:21 GMT</pubDate>
   </item><item>
     <title>Game Rules</title>
     <link>https://dio.adeom.dev/game-rules/</link>
     <guid>https://dio.adeom.dev/game-rules/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 29 May 2026 19:04:42 GMT</pubDate>
+    <pubDate>Sat, 30 May 2026 15:29:21 GMT</pubDate>
   </item><item>
     <title>Playing the Game</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/</link>
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 29 May 2026 19:04:42 GMT</pubDate>
+    <pubDate>Sat, 30 May 2026 15:29:21 GMT</pubDate>
   </item><item>
     <title>Tag Index</title>
     <link>https://dio.adeom.dev/tags/</link>
     <guid>https://dio.adeom.dev/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 29 May 2026 19:04:42 GMT</pubDate>
+    <pubDate>Sat, 30 May 2026 15:29:21 GMT</pubDate>
+  </item><item>
+    <title>Healing the Body</title>
+    <link>https://dio.adeom.dev/game-rules/paths/healing-the-body</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/healing-the-body</guid>
+    <description><![CDATA[ Healing the Body flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Tools of the trade You are skilled in usage of Medical tools. ]]></description>
+    <pubDate>Sat, 30 May 2026 15:26:53 GMT</pubDate>
+  </item><item>
+    <title>Abilities</title>
+    <link>https://dio.adeom.dev/game-rules/playing-the-game/abilities</link>
+    <guid>https://dio.adeom.dev/game-rules/playing-the-game/abilities</guid>
+    <description><![CDATA[ Abilities Pausing and resuming. Some abilities state that they can be paused and resumed. Usually, resuming has no extra cost. ]]></description>
+    <pubDate>Sat, 30 May 2026 14:43:40 GMT</pubDate>
   </item><item>
     <title>Tugging at Heartstrings</title>
     <link>https://dio.adeom.dev/game-rules/paths/tugging-at-heartstrings</link>
     <guid>https://dio.adeom.dev/game-rules/paths/tugging-at-heartstrings</guid>
     <description><![CDATA[ Tugging at Heartstrings flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Heartstring clock. ]]></description>
-    <pubDate>Thu, 28 May 2026 14:17:12 GMT</pubDate>
+    <pubDate>Sat, 30 May 2026 11:39:53 GMT</pubDate>
   </item><item>
     <title>Amp</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/amp</link>
@@ -42,23 +54,11 @@
     <description><![CDATA[ Amp Some abilities gain stronger effects with more successes on a roll. This mechanic is call Amp(lificatio). ]]></description>
     <pubDate>Tue, 26 May 2026 18:50:29 GMT</pubDate>
   </item><item>
-    <title>Healing the Body</title>
-    <link>https://dio.adeom.dev/game-rules/paths/healing-the-body</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/healing-the-body</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 25 May 2026 19:08:56 GMT</pubDate>
-  </item><item>
     <title>Rolling dice</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/rolling-dice</link>
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/rolling-dice</guid>
     <description><![CDATA[ Rolling dice Whenever an action asks for a roll, you go through the following steps: Determine the roll difficulty. ]]></description>
     <pubDate>Mon, 18 May 2026 18:53:06 GMT</pubDate>
-  </item><item>
-    <title>Abilities</title>
-    <link>https://dio.adeom.dev/game-rules/playing-the-game/abilities</link>
-    <guid>https://dio.adeom.dev/game-rules/playing-the-game/abilities</guid>
-    <description><![CDATA[ Abilities Scene Abilities. ]]></description>
-    <pubDate>Sat, 02 May 2026 09:54:21 GMT</pubDate>
   </item><item>
     <title>Stat Pools</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/stat-pools</link>
