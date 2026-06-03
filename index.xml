@@ -10,43 +10,49 @@
     <link>https://dio.adeom.dev/game-rules/paths/</link>
     <guid>https://dio.adeom.dev/game-rules/paths/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 30 May 2026 21:26:41 GMT</pubDate>
+    <pubDate>Wed, 03 Jun 2026 16:16:04 GMT</pubDate>
   </item><item>
     <title>Game Rules</title>
     <link>https://dio.adeom.dev/game-rules/</link>
     <guid>https://dio.adeom.dev/game-rules/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 30 May 2026 21:26:41 GMT</pubDate>
+    <pubDate>Wed, 03 Jun 2026 16:16:04 GMT</pubDate>
   </item><item>
     <title>Playing the Game</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/</link>
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 30 May 2026 21:26:41 GMT</pubDate>
+    <pubDate>Wed, 03 Jun 2026 16:16:04 GMT</pubDate>
   </item><item>
     <title>Tag Index</title>
     <link>https://dio.adeom.dev/tags/</link>
     <guid>https://dio.adeom.dev/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 30 May 2026 21:26:41 GMT</pubDate>
+    <pubDate>Wed, 03 Jun 2026 16:16:04 GMT</pubDate>
+  </item><item>
+    <title>Brawler</title>
+    <link>https://dio.adeom.dev/game-rules/paths/brawler</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/brawler</guid>
+    <description><![CDATA[ Brawler flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Always Armed You are skilled in brawlling and un-armed fighting. ]]></description>
+    <pubDate>Wed, 03 Jun 2026 15:27:02 GMT</pubDate>
+  </item><item>
+    <title>Peerless Warrior</title>
+    <link>https://dio.adeom.dev/game-rules/paths/peerless-warrior</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/peerless-warrior</guid>
+    <description><![CDATA[ Peerless Warrior flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Trusty weapon You gain skill in using a specific category of weapons. ]]></description>
+    <pubDate>Wed, 03 Jun 2026 15:05:52 GMT</pubDate>
+  </item><item>
+    <title>Conquering the Hearts</title>
+    <link>https://dio.adeom.dev/game-rules/paths/conquering-the-hearts</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/conquering-the-hearts</guid>
+    <description><![CDATA[ Conquering the Hearts flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Inspiring leadership free action, cost(2 drive) Inspire someone you can communicate with directly. ]]></description>
+    <pubDate>Wed, 03 Jun 2026 14:27:17 GMT</pubDate>
   </item><item>
     <title>Healing the Body</title>
     <link>https://dio.adeom.dev/game-rules/paths/healing-the-body</link>
     <guid>https://dio.adeom.dev/game-rules/paths/healing-the-body</guid>
     <description><![CDATA[ Healing the Body flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Tools of the trade You are skilled in usage of Medical tools. ]]></description>
     <pubDate>Sat, 30 May 2026 21:24:51 GMT</pubDate>
-  </item><item>
-    <title>Peerless Warrior</title>
-    <link>https://dio.adeom.dev/game-rules/paths/peerless-warrior</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/peerless-warrior</guid>
-    <description><![CDATA[ Peerless Warrior flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Trusty weapon You gain skill in using a specific category of weapons. ]]></description>
-    <pubDate>Sat, 30 May 2026 21:24:22 GMT</pubDate>
-  </item><item>
-    <title>Conquering the Hearts</title>
-    <link>https://dio.adeom.dev/game-rules/paths/conquering-the-hearts</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/conquering-the-hearts</guid>
-    <description><![CDATA[ flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities. ]]></description>
-    <pubDate>Sat, 30 May 2026 19:41:52 GMT</pubDate>
   </item><item>
     <title>Abilities</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/abilities</link>
@@ -59,12 +65,6 @@
     <guid>https://dio.adeom.dev/game-rules/paths/tugging-at-heartstrings</guid>
     <description><![CDATA[ Tugging at Heartstrings flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Heartstring clock. ]]></description>
     <pubDate>Sat, 30 May 2026 11:39:53 GMT</pubDate>
-  </item><item>
-    <title>Amp</title>
-    <link>https://dio.adeom.dev/game-rules/playing-the-game/amp</link>
-    <guid>https://dio.adeom.dev/game-rules/playing-the-game/amp</guid>
-    <description><![CDATA[ Amp Some abilities gain stronger effects with more successes on a roll. This mechanic is call Amp(lificatio). ]]></description>
-    <pubDate>Tue, 26 May 2026 18:50:29 GMT</pubDate>
   </item>
     </channel>
   </rss>
