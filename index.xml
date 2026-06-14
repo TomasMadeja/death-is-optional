@@ -10,25 +10,31 @@
     <link>https://dio.adeom.dev/game-rules/paths/</link>
     <guid>https://dio.adeom.dev/game-rules/paths/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 08 Jun 2026 21:12:47 GMT</pubDate>
+    <pubDate>Sun, 14 Jun 2026 16:21:55 GMT</pubDate>
   </item><item>
     <title>Game Rules</title>
     <link>https://dio.adeom.dev/game-rules/</link>
     <guid>https://dio.adeom.dev/game-rules/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 08 Jun 2026 21:12:47 GMT</pubDate>
+    <pubDate>Sun, 14 Jun 2026 16:21:55 GMT</pubDate>
   </item><item>
     <title>Playing the Game</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/</link>
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 08 Jun 2026 21:12:47 GMT</pubDate>
+    <pubDate>Sun, 14 Jun 2026 16:21:55 GMT</pubDate>
   </item><item>
     <title>Tag Index</title>
     <link>https://dio.adeom.dev/tags/</link>
     <guid>https://dio.adeom.dev/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 08 Jun 2026 21:12:47 GMT</pubDate>
+    <pubDate>Sun, 14 Jun 2026 16:21:55 GMT</pubDate>
+  </item><item>
+    <title>Working with what you&#039;ve got</title>
+    <link>https://dio.adeom.dev/game-rules/paths/working-with-what-you've-got</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/working-with-what-you've-got</guid>
+    <description><![CDATA[ Working with what you’ve got flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities. ]]></description>
+    <pubDate>Sun, 14 Jun 2026 13:22:13 GMT</pubDate>
   </item><item>
     <title>Great Work</title>
     <link>https://dio.adeom.dev/game-rules/paths/great-work</link>
@@ -59,12 +65,6 @@
     <guid>https://dio.adeom.dev/game-rules/paths/peerless-warrior</guid>
     <description><![CDATA[ Peerless Warrior flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Trusty weapon You gain skill in using a specific category of weapons. ]]></description>
     <pubDate>Wed, 03 Jun 2026 16:19:08 GMT</pubDate>
-  </item><item>
-    <title>Conquering the Hearts</title>
-    <link>https://dio.adeom.dev/game-rules/paths/conquering-the-hearts</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/conquering-the-hearts</guid>
-    <description><![CDATA[ Conquering the Hearts flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Inspiring leadership free action, cost(2 drive) Inspire someone you can communicate with directly. ]]></description>
-    <pubDate>Wed, 03 Jun 2026 16:18:52 GMT</pubDate>
   </item>
     </channel>
   </rss>
