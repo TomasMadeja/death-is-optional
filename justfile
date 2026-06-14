@@ -85,6 +85,8 @@ update:
     cwd=quartz,
     shell=True,
   )
+  (quartz / "quartz" / "styles" / "custom.scss").unlink()
+  copyfile(Path(r"{{justfile_directory()}}") / "customization" / "custom.scss", quartz / "quartz" / "styles" / "custom.scss")
   run(
     f'npx quartz build',
     cwd=quartz,
