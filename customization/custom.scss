@@ -97,3 +97,7 @@ blockquote:not(.callout) {
     font-weight: $semiBoldWeight;
   }
 }
+
+object[type="image/svg+xml"] {
+  max-width: 100%;
+}
