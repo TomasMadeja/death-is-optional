@@ -10,25 +10,37 @@
     <link>https://dio.adeom.dev/game-rules/paths/</link>
     <guid>https://dio.adeom.dev/game-rules/paths/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 14 Jun 2026 20:58:46 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 21:47:55 GMT</pubDate>
   </item><item>
     <title>Game Rules</title>
     <link>https://dio.adeom.dev/game-rules/</link>
     <guid>https://dio.adeom.dev/game-rules/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 14 Jun 2026 20:58:46 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 21:47:55 GMT</pubDate>
   </item><item>
     <title>Playing the Game</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/</link>
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 14 Jun 2026 20:58:46 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 21:47:55 GMT</pubDate>
   </item><item>
     <title>Tag Index</title>
     <link>https://dio.adeom.dev/tags/</link>
     <guid>https://dio.adeom.dev/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 14 Jun 2026 20:58:46 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 21:47:55 GMT</pubDate>
+  </item><item>
+    <title>Drive</title>
+    <link>https://dio.adeom.dev/game-rules/playing-the-game/drive</link>
+    <guid>https://dio.adeom.dev/game-rules/playing-the-game/drive</guid>
+    <description><![CDATA[ Drive Your drive consists of Drive pool, Drive Emotion and Drives. ]]></description>
+    <pubDate>Mon, 15 Jun 2026 21:37:25 GMT</pubDate>
+  </item><item>
+    <title>Creating a character</title>
+    <link>https://dio.adeom.dev/game-rules/playing-the-game/creating-a-character</link>
+    <guid>https://dio.adeom.dev/game-rules/playing-the-game/creating-a-character</guid>
+    <description><![CDATA[ Creating a character Choose Paths Pick 2 Paths for your character. Fill out your Pools Might pool. Your might pool has maximum of 15d6 dice. ]]></description>
+    <pubDate>Mon, 15 Jun 2026 19:52:31 GMT</pubDate>
   </item><item>
     <title>Shepard</title>
     <link>https://dio.adeom.dev/game-rules/paths/shepard</link>
@@ -48,23 +60,11 @@
     <description><![CDATA[ Brawler flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Path Mechanics Gear Gear is a counter with maximum value equal to half your level (rounded up). ]]></description>
     <pubDate>Sun, 14 Jun 2026 19:18:18 GMT</pubDate>
   </item><item>
-    <title>Creating a character</title>
-    <link>https://dio.adeom.dev/game-rules/playing-the-game/creating-a-character</link>
-    <guid>https://dio.adeom.dev/game-rules/playing-the-game/creating-a-character</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 14 Jun 2026 18:20:45 GMT</pubDate>
-  </item><item>
     <title>Overwhelm</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/overwhelm</link>
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/overwhelm</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Sun, 14 Jun 2026 18:20:24 GMT</pubDate>
-  </item><item>
-    <title>Wounds and Durability</title>
-    <link>https://dio.adeom.dev/game-rules/playing-the-game/wounds-and-durability</link>
-    <guid>https://dio.adeom.dev/game-rules/playing-the-game/wounds-and-durability</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 14 Jun 2026 18:19:45 GMT</pubDate>
   </item>
     </channel>
   </rss>
