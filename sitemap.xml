@@ -1,29 +1,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://dio.adeom.dev/game-rules/paths/brawler</loc>
-    <lastmod>2026-06-14T19:18:18.523Z</lastmod>
+    <lastmod>2026-06-17T18:41:10.101Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/conquering-the-hearts</loc>
-    <lastmod>2026-06-03T16:18:52.128Z</lastmod>
+    <lastmod>2026-06-17T18:30:57.304Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/great-work</loc>
-    <lastmod>2026-06-08T21:08:26.989Z</lastmod>
+    <lastmod>2026-06-17T18:35:25.465Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/healing-the-body</loc>
-    <lastmod>2026-06-07T08:51:35.694Z</lastmod>
+    <lastmod>2026-06-17T18:40:29.808Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/peerless-warrior</loc>
-    <lastmod>2026-06-03T16:19:08.747Z</lastmod>
+    <lastmod>2026-06-17T18:40:51.174Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/shepard</loc>
-    <lastmod>2026-06-14T20:56:40.146Z</lastmod>
+    <lastmod>2026-06-17T18:42:22.127Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/tugging-at-heartstrings</loc>
-    <lastmod>2026-06-03T16:19:11.024Z</lastmod>
+    <lastmod>2026-06-17T18:44:04.236Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/working-with-what-is-on-hand</loc>
-    <lastmod>2026-06-14T19:19:53.137Z</lastmod>
+    <lastmod>2026-06-17T18:44:37.118Z</lastmod>
   </url><url>
-    <loc>https://dio.adeom.dev/game-rules/playing-the-game/abilities</loc>
+    <loc>https://dio.adeom.dev/game-rules/playing-the-game/abilities/basic-abilities</loc>
+    <lastmod>2026-06-17T20:20:41.736Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/game-rules/playing-the-game/abilities/</loc>
     <lastmod>2026-05-30T14:43:40.823Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/playing-the-game/amp</loc>
@@ -60,14 +63,14 @@
     <lastmod>2023-08-23T19:09:04.000Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/</loc>
-    <lastmod>2026-06-15T21:47:55.986Z</lastmod>
+    <lastmod>2026-06-17T20:45:49.332Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/</loc>
-    <lastmod>2026-06-15T21:47:55.986Z</lastmod>
+    <lastmod>2026-06-17T20:45:49.332Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/playing-the-game/</loc>
-    <lastmod>2026-06-15T21:47:55.986Z</lastmod>
+    <lastmod>2026-06-17T20:45:49.332Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/tags/</loc>
-    <lastmod>2026-06-15T21:47:55.986Z</lastmod>
+    <lastmod>2026-06-17T20:45:49.332Z</lastmod>
   </url></urlset>
