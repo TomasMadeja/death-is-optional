@@ -10,61 +10,61 @@
     <link>https://dio.adeom.dev/game-rules/paths/</link>
     <guid>https://dio.adeom.dev/game-rules/paths/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 17 Jun 2026 20:45:49 GMT</pubDate>
+    <pubDate>Sun, 19 Jul 2026 20:23:18 GMT</pubDate>
   </item><item>
     <title>Game Rules</title>
     <link>https://dio.adeom.dev/game-rules/</link>
     <guid>https://dio.adeom.dev/game-rules/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 17 Jun 2026 20:45:49 GMT</pubDate>
+    <pubDate>Sun, 19 Jul 2026 20:23:18 GMT</pubDate>
   </item><item>
     <title>Playing the Game</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/</link>
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 17 Jun 2026 20:45:49 GMT</pubDate>
+    <pubDate>Sun, 19 Jul 2026 20:23:18 GMT</pubDate>
+  </item><item>
+    <title>Lineages</title>
+    <link>https://dio.adeom.dev/settings/stargazers/lineages/</link>
+    <guid>https://dio.adeom.dev/settings/stargazers/lineages/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 19 Jul 2026 20:23:18 GMT</pubDate>
+  </item><item>
+    <title>Stargazers</title>
+    <link>https://dio.adeom.dev/settings/stargazers/</link>
+    <guid>https://dio.adeom.dev/settings/stargazers/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 19 Jul 2026 20:23:18 GMT</pubDate>
+  </item><item>
+    <title>Settings</title>
+    <link>https://dio.adeom.dev/settings/</link>
+    <guid>https://dio.adeom.dev/settings/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 19 Jul 2026 20:23:18 GMT</pubDate>
   </item><item>
     <title>Tag Index</title>
     <link>https://dio.adeom.dev/tags/</link>
     <guid>https://dio.adeom.dev/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 17 Jun 2026 20:45:49 GMT</pubDate>
+    <pubDate>Sun, 19 Jul 2026 20:23:18 GMT</pubDate>
   </item><item>
-    <title>Basic Abilities</title>
-    <link>https://dio.adeom.dev/game-rules/playing-the-game/abilities/basic-abilities</link>
-    <guid>https://dio.adeom.dev/game-rules/playing-the-game/abilities/basic-abilities</guid>
-    <description><![CDATA[ Basic Abilities Restoration Quick Rest Free Action, Final Restore 1d4 dice in Might pool. Rest Action Restore 2d4 dice in Might pool. ]]></description>
-    <pubDate>Wed, 17 Jun 2026 20:20:41 GMT</pubDate>
+    <title>Saltlanders</title>
+    <link>https://dio.adeom.dev/settings/stargazers/lineages/saltlanders</link>
+    <guid>https://dio.adeom.dev/settings/stargazers/lineages/saltlanders</guid>
+    <description><![CDATA[ Saltlanders Abilities Natural swimmers You are natural in water, and can swim twice as fast as your normal speed. ]]></description>
+    <pubDate>Sun, 19 Jul 2026 19:22:51 GMT</pubDate>
   </item><item>
-    <title>Working with what is on hand</title>
-    <link>https://dio.adeom.dev/game-rules/paths/working-with-what-is-on-hand</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/working-with-what-is-on-hand</guid>
-    <description><![CDATA[ Working with what is on hand flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Path Mechanics Material Armor You body is enveloped with stone, metals and other materials, protecting you. ]]></description>
-    <pubDate>Wed, 17 Jun 2026 18:44:37 GMT</pubDate>
+    <title>Vedma</title>
+    <link>https://dio.adeom.dev/settings/stargazers/lineages/vedma</link>
+    <guid>https://dio.adeom.dev/settings/stargazers/lineages/vedma</guid>
+    <description><![CDATA[ Vedma Abilities Eat Action, cost(5 might) Drain 1 year of age from a person you touch. The person must be willing adult human or other lineage. ]]></description>
+    <pubDate>Sun, 19 Jul 2026 18:30:14 GMT</pubDate>
   </item><item>
-    <title>Tugging at Heartstrings</title>
-    <link>https://dio.adeom.dev/game-rules/paths/tugging-at-heartstrings</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/tugging-at-heartstrings</guid>
-    <description><![CDATA[ Tugging at Heartstrings flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Heartstring clock. ]]></description>
-    <pubDate>Wed, 17 Jun 2026 18:44:04 GMT</pubDate>
-  </item><item>
-    <title>Shepard</title>
-    <link>https://dio.adeom.dev/game-rules/paths/shepard</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/shepard</guid>
-    <description><![CDATA[ Shepard flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Tools of the trade You gain skill at using tools for maintaining, herding, grooming, and butchering animals. ]]></description>
-    <pubDate>Wed, 17 Jun 2026 18:42:22 GMT</pubDate>
-  </item><item>
-    <title>Brawler</title>
-    <link>https://dio.adeom.dev/game-rules/paths/brawler</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/brawler</guid>
-    <description><![CDATA[ Brawler flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Path Mechanics Gear Gear is a counter with maximum value equal to half your level (rounded up). ]]></description>
-    <pubDate>Wed, 17 Jun 2026 18:41:10 GMT</pubDate>
-  </item><item>
-    <title>Peerless Warrior</title>
-    <link>https://dio.adeom.dev/game-rules/paths/peerless-warrior</link>
-    <guid>https://dio.adeom.dev/game-rules/paths/peerless-warrior</guid>
-    <description><![CDATA[ Peerless Warrior flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Trusty weapon You gain skill in using a specific category of weapons. ]]></description>
-    <pubDate>Wed, 17 Jun 2026 18:40:51 GMT</pubDate>
+    <title>Humans</title>
+    <link>https://dio.adeom.dev/settings/stargazers/lineages/humans</link>
+    <guid>https://dio.adeom.dev/settings/stargazers/lineages/humans</guid>
+    <description><![CDATA[ Humans Abilities Unmoulded clay Rolls to avoid having your physical shape altered are eased by 2. ]]></description>
+    <pubDate>Sun, 19 Jul 2026 18:26:15 GMT</pubDate>
   </item>
     </channel>
   </rss>

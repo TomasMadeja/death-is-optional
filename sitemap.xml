@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://dio.adeom.dev/game-rules/paths/brawler</loc>
-    <lastmod>2026-06-17T18:41:10.101Z</lastmod>
+    <lastmod>2026-06-18T16:55:46.542Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/conquering-the-hearts</loc>
     <lastmod>2026-06-17T18:30:57.304Z</lastmod>
@@ -12,7 +12,7 @@
     <lastmod>2026-06-17T18:40:29.808Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/peerless-warrior</loc>
-    <lastmod>2026-06-17T18:40:51.174Z</lastmod>
+    <lastmod>2026-06-18T17:02:51.534Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/shepard</loc>
     <lastmod>2026-06-17T18:42:22.127Z</lastmod>
@@ -38,6 +38,9 @@
     <loc>https://dio.adeom.dev/game-rules/playing-the-game/drive</loc>
     <lastmod>2026-06-15T21:37:25.699Z</lastmod>
   </url><url>
+    <loc>https://dio.adeom.dev/game-rules/playing-the-game/followers</loc>
+    <lastmod>2026-06-22T19:09:20.041Z</lastmod>
+  </url><url>
     <loc>https://dio.adeom.dev/game-rules/playing-the-game/overwhelm</loc>
     <lastmod>2026-06-14T18:20:24.823Z</lastmod>
   </url><url>
@@ -59,18 +62,45 @@
     <loc>https://dio.adeom.dev/game-rules/playing-the-game/wounds-and-durability</loc>
     <lastmod>2026-06-14T18:19:45.534Z</lastmod>
   </url><url>
+    <loc>https://dio.adeom.dev/settings/stargazers/lineages/courtier</loc>
+    <lastmod>2026-07-16T20:13:22.570Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/settings/stargazers/lineages/humans</loc>
+    <lastmod>2026-07-19T18:26:15.657Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/settings/stargazers/lineages/nebula</loc>
+    <lastmod>2026-07-12T08:44:30.630Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/settings/stargazers/lineages/redmanes</loc>
+    <lastmod>2026-07-12T08:44:08.141Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/settings/stargazers/lineages/saltlanders</loc>
+    <lastmod>2026-07-19T19:22:51.677Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/settings/stargazers/lineages/vedma</loc>
+    <lastmod>2026-07-19T18:30:14.748Z</lastmod>
+  </url><url>
     <loc>https://dio.adeom.dev/</loc>
     <lastmod>2023-08-23T19:09:04.000Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/paths/</loc>
-    <lastmod>2026-06-17T20:45:49.332Z</lastmod>
+    <lastmod>2026-07-19T20:23:18.812Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/</loc>
-    <lastmod>2026-06-17T20:45:49.332Z</lastmod>
+    <lastmod>2026-07-19T20:23:18.812Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/game-rules/playing-the-game/</loc>
-    <lastmod>2026-06-17T20:45:49.332Z</lastmod>
+    <lastmod>2026-07-19T20:23:18.812Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/settings/stargazers/lineages/</loc>
+    <lastmod>2026-07-19T20:23:18.812Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/settings/stargazers/</loc>
+    <lastmod>2026-07-19T20:23:18.812Z</lastmod>
+  </url><url>
+    <loc>https://dio.adeom.dev/settings/</loc>
+    <lastmod>2026-07-19T20:23:18.812Z</lastmod>
   </url><url>
     <loc>https://dio.adeom.dev/tags/</loc>
-    <lastmod>2026-06-17T20:45:49.332Z</lastmod>
+    <lastmod>2026-07-19T20:23:18.812Z</lastmod>
   </url></urlset>
