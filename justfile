@@ -78,6 +78,7 @@ update:
   #   shell=True,
   # )
   copyfile(Path(r"{{justfile_directory()}}") / "quartz.config.yaml", quartz / "quartz.config.yaml")
+  copytree(source / "Settings", quartz / "content" / "Settings")
   copytree(source / "Game Rules", quartz / "content" / "Game Rules")
   copyfile(source / "index.md", quartz / "content" / "index.md")
   run(
