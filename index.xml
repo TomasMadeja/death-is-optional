@@ -10,43 +10,49 @@
     <link>https://dio.adeom.dev/game-rules/paths/</link>
     <guid>https://dio.adeom.dev/game-rules/paths/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 03 Aug 2026 20:40:48 GMT</pubDate>
+    <pubDate>Mon, 03 Aug 2026 20:56:06 GMT</pubDate>
   </item><item>
     <title>Game Rules</title>
     <link>https://dio.adeom.dev/game-rules/</link>
     <guid>https://dio.adeom.dev/game-rules/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 03 Aug 2026 20:40:48 GMT</pubDate>
+    <pubDate>Mon, 03 Aug 2026 20:56:06 GMT</pubDate>
   </item><item>
     <title>Playing the Game</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/</link>
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 03 Aug 2026 20:40:48 GMT</pubDate>
+    <pubDate>Mon, 03 Aug 2026 20:56:06 GMT</pubDate>
   </item><item>
     <title>Lineages</title>
     <link>https://dio.adeom.dev/settings/stargazers/lineages/</link>
     <guid>https://dio.adeom.dev/settings/stargazers/lineages/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 03 Aug 2026 20:40:48 GMT</pubDate>
+    <pubDate>Mon, 03 Aug 2026 20:56:06 GMT</pubDate>
   </item><item>
     <title>Stargazers</title>
     <link>https://dio.adeom.dev/settings/stargazers/</link>
     <guid>https://dio.adeom.dev/settings/stargazers/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 03 Aug 2026 20:40:48 GMT</pubDate>
+    <pubDate>Mon, 03 Aug 2026 20:56:06 GMT</pubDate>
   </item><item>
     <title>Settings</title>
     <link>https://dio.adeom.dev/settings/</link>
     <guid>https://dio.adeom.dev/settings/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 03 Aug 2026 20:40:48 GMT</pubDate>
+    <pubDate>Mon, 03 Aug 2026 20:56:06 GMT</pubDate>
   </item><item>
     <title>Tag Index</title>
     <link>https://dio.adeom.dev/tags/</link>
     <guid>https://dio.adeom.dev/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 03 Aug 2026 20:40:48 GMT</pubDate>
+    <pubDate>Mon, 03 Aug 2026 20:56:06 GMT</pubDate>
+  </item><item>
+    <title>Rolling dice</title>
+    <link>https://dio.adeom.dev/game-rules/playing-the-game/rolling-dice</link>
+    <guid>https://dio.adeom.dev/game-rules/playing-the-game/rolling-dice</guid>
+    <description><![CDATA[ Rolling dice Whenever an action asks for a roll, you go through the following steps: Determine the roll difficulty. ]]></description>
+    <pubDate>Mon, 03 Aug 2026 20:50:19 GMT</pubDate>
   </item><item>
     <title>Abilities</title>
     <link>https://dio.adeom.dev/game-rules/playing-the-game/abilities</link>
@@ -59,12 +65,6 @@
     <guid>https://dio.adeom.dev/game-rules/playing-the-game/drive</guid>
     <description><![CDATA[ Drive Your drive consists of Drive pool, Drive Emotion and Drives. ]]></description>
     <pubDate>Mon, 03 Aug 2026 20:33:31 GMT</pubDate>
-  </item><item>
-    <title>Rolling dice</title>
-    <link>https://dio.adeom.dev/game-rules/playing-the-game/rolling-dice</link>
-    <guid>https://dio.adeom.dev/game-rules/playing-the-game/rolling-dice</guid>
-    <description><![CDATA[ Rolling dice Whenever an action asks for a roll, you go through the following steps: Determine the roll difficulty. ]]></description>
-    <pubDate>Mon, 03 Aug 2026 20:28:23 GMT</pubDate>
   </item>
     </channel>
   </rss>
