@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Death is Optional</title>
+      <link>https://dio.adeom.dev</link>
+      <description>Last 10 notes on Death is Optional</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Paths</title>
+    <link>https://dio.adeom.dev/game-rules/paths/</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 15 Sep 2026 16:10:27 GMT</pubDate>
+  </item><item>
+    <title>Game Rules</title>
+    <link>https://dio.adeom.dev/game-rules/</link>
+    <guid>https://dio.adeom.dev/game-rules/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 15 Sep 2026 16:10:27 GMT</pubDate>
+  </item><item>
+    <title>Playing the Game</title>
+    <link>https://dio.adeom.dev/game-rules/playing-the-game/</link>
+    <guid>https://dio.adeom.dev/game-rules/playing-the-game/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 15 Sep 2026 16:10:27 GMT</pubDate>
+  </item><item>
+    <title>Lineages</title>
+    <link>https://dio.adeom.dev/settings/stargazers/lineages/</link>
+    <guid>https://dio.adeom.dev/settings/stargazers/lineages/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 15 Sep 2026 16:10:27 GMT</pubDate>
+  </item><item>
+    <title>Stargazers</title>
+    <link>https://dio.adeom.dev/settings/stargazers/</link>
+    <guid>https://dio.adeom.dev/settings/stargazers/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 15 Sep 2026 16:10:27 GMT</pubDate>
+  </item><item>
+    <title>Settings</title>
+    <link>https://dio.adeom.dev/settings/</link>
+    <guid>https://dio.adeom.dev/settings/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 15 Sep 2026 16:10:27 GMT</pubDate>
+  </item><item>
+    <title>Tag Index</title>
+    <link>https://dio.adeom.dev/tags/</link>
+    <guid>https://dio.adeom.dev/tags/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Tue, 15 Sep 2026 16:10:27 GMT</pubDate>
+  </item><item>
+    <title>Great Work</title>
+    <link>https://dio.adeom.dev/game-rules/paths/great-work</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/great-work</guid>
+    <description><![CDATA[ Great Work flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Starting Abilities Nigredo Action, cost(3 might) Touch &amp; decompose target: On physical creature - cause wounds. ]]></description>
+    <pubDate>Mon, 14 Sep 2026 19:38:08 GMT</pubDate>
+  </item><item>
+    <title>Shepherd</title>
+    <link>https://dio.adeom.dev/game-rules/paths/shepherd</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/shepherd</guid>
+    <description><![CDATA[ Shepherd flowchart TD start[&quot;Starting abilities&quot;] flock1[&quot;Grow the flock: Weaver&quot;] flock2[&quot;Grow the flock: Protector&quot;] flock3[&quot;Grow the flock: Predator&quot;] friends[&quot;Friends in all places&quot;] pack[&quot;Pack tactics&quot;] col[&quot;Cycle of life&quot;] s... ]]></description>
+    <pubDate>Mon, 14 Sep 2026 19:32:06 GMT</pubDate>
+  </item><item>
+    <title>Tugging at Heartstrings</title>
+    <link>https://dio.adeom.dev/game-rules/paths/tugging-at-heartstrings</link>
+    <guid>https://dio.adeom.dev/game-rules/paths/tugging-at-heartstrings</guid>
+    <description><![CDATA[ Tugging at Heartstrings flowchart TD id[&quot;Starting abilities&quot;] --&gt; Example1 id[&quot;Starting abilities&quot;] --&gt; Example2 Path mechanics Pulling at heartstring Heartstring is a sentence or phrase, that describes important traits, bonds, motivations and other character features. ]]></description>
+    <pubDate>Sun, 13 Sep 2026 21:09:01 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
